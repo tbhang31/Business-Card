@@ -1,0 +1,82 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    background-color: rgb(35,37,44);
+}
+
+div#root {
+    background-color: rgb(26,27,33);
+    width: 619px;
+    margin: auto;
+    border-radius: 14px;
+}
+
+header {
+    text-align: center;
+}
+
+header>img {
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.header-mail {
+    background-image: url(./images/email-icon.jpg);
+}
+
+.header-git {
+    background-image: url(./images/github-icon.png);
+}
+
+.header-buttons, footer {
+    display: flex;
+    justify-content: center;
+}
+
+.header-button {
+    padding: 6px 25px;
+    border: 2px solid white;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.header-button>a:link,.header-button>a:visited  {
+    color: blue;
+}
+
+.header-button>a:hover {
+    color: darkblue;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.534);
+}
+
+section {
+    margin: 10px 14px;
+}
+
+h2 {
+    color: white;
+}
+
+h4 {
+    color: orange;
+}
+
+.body-text, .body-text>li {
+    color:rgb(104, 103, 103);
+}
+
+.body-text>li::marker {
+    color: orange;
+    font-size: 1.4rem;
+}
+
+a:visited {
+    color: grey;
+}
+footer>a {
+    size: 40px;
+    margin: 8px;
+}
